@@ -1,0 +1,51 @@
+/*---header---*/
+header{
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    h1{
+        font-family: 'Tourney', cursive;
+        text-align: center;
+        padding: 1%;
+        font-size: nth($font-size,14);
+        color: $color-secundario;
+        background-color: $color-principal; 
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.795);
+        .container-fluid{
+            .navbar-toggler{
+                color: #dee2e6;
+                border-color: #dedf0c;
+            }
+            .collapse navbar-collapse{
+                .navbar-nav me-auto mb-2 mb-lg-0{
+                    .nav-item{
+                        .nav-link active{
+                            color: $color-secundario;
+                        }
+                    }
+                    .nav-item .dropdown{
+                        .dropdown-menu{
+                            li{
+                                .dropdown-item{
+                                    display: block;
+                                    width: 100%;
+                                    padding: 0.25rem 1rem;
+                                    clear: both;
+                                    font-weight: 400;
+                                    color: $color-secundario;
+                                    text-align: inherit;
+                                    text-decoration: none;
+                                    white-space: nowrap;
+                                    background-color: rgba(0, 0, 0, 0.795);
+                                    border: 0;
+                                }
+                            }
+                        }
+                    }
+                }        
+            }    
+        }
+    }
+}    

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Source+Sans+Pro&family=Tourney:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $principal-font, Times, serif !important;
+    color: $color-principal;
+}

@@ -1,0 +1,73 @@
+/*---FOOTER---*/
+.footer{
+    .foot__section{
+        display: flex;
+        background-color: rgb(10, 10, 10);
+        padding: 40px 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .foot__section__company{
+            display: flex;
+            flex-direction: column;
+            color: $color-secundario;
+            padding: 10px;
+            height: 100%;
+            h2{
+                margin-bottom: 20px;
+                border-bottom: $color-secundario 1px solid;
+            }
+            a{
+                text-decoration: none;
+                color: $color-secundario;
+                padding: 5px;
+                font-weight: bold;
+            }
+        }
+        .foot__section__company__contact{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            input{
+                margin-bottom: 10px;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $color-secundario;
+                color: $color-secundario;
+                text-align: center;
+            }
+            button{
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $color-secundario; 
+                font-weight: bold;
+                font-size: nth($font-size,4);
+            }
+        }
+    }
+    .media{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        background-color: $color-principal;
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+            margin-bottom: 15px;
+            font-weight: bold;
+            img{
+                display: block;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .rights{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        background-color: $color-principal;
+        color: $color-secundario;
+        align-items: center;
+        padding: 10px;
+    }
+}
