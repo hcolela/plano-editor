@@ -33,7 +33,7 @@ $boton_venta:(
 %item_img{
     width: 100%;
     height: 100%;
-    transition: 3s;
+    transition-duration: 3s;
     &:hover{
         transform: scale(1.05);
     }

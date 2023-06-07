@@ -1,19 +1,25 @@
-/*---header---*/
+/*------------------------------Inicio header--------------------------------*/
 header{
     width: 100%;
     position: sticky;
-    top: 0; 
+    top: 0;
+    z-index: 1; 
     h1{
         font-family: 'Tourney', cursive;
         text-align: center;
         padding: 1%;
+        margin: auto;
         font-size: nth($font-size,14);
         color: $color-secundario;
         background-color: $color-principal; 
     }
     .navbar{
-        background-color: rgba(0, 0, 0, 0.795);
+        background-color: $color-secundario;
         .container-fluid{
+            .navbar-brand{
+                margin: auto;
+                padding: 8px;
+            }
             .navbar-toggler{
                 color: #dee2e6;
                 border-color: #dedf0c;
@@ -44,8 +50,9 @@ header{
                             }
                         }
                     }
-                }        
+                }
             }    
         }
     }
-}    
+}
+/*-------------------------------Fin Header----------------------------------*/    

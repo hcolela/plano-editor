@@ -1,4 +1,4 @@
-/*---FOOTER---*/
+/*-----------------------------Inicio Footer---------------------------------*/
 .footer{
     .foot__section{
         display: flex;
@@ -13,8 +13,12 @@
             padding: 10px;
             height: 100%;
             h2{
-                margin-bottom: 20px;
+                margin: 10px 5px;
                 border-bottom: $color-secundario 1px solid;
+            }
+            p{
+                margin: auto;
+                padding: 5px;
             }
             a{
                 text-decoration: none;
@@ -28,7 +32,7 @@
             display: flex;
             flex-direction: column;
             input{
-                margin-bottom: 10px;
+                margin: 5px 0px;
                 padding: 5px;
                 border-radius: 5px;
                 background-color: $color-secundario;
@@ -36,6 +40,7 @@
                 text-align: center;
             }
             button{
+                margin: 5px 0px;
                 padding: 5px;
                 border-radius: 5px;
                 background-color: $color-secundario; 
@@ -52,12 +57,11 @@
         a{
             text-decoration: none;
             color: $color-secundario;
-            margin-bottom: 15px;
+            margin: auto;
             font-weight: bold;
             img{
                 display: block;
-                margin-top: 15px;
-                margin-bottom: 15px;
+                margin: 15px auto;
             }
         }
     }
@@ -68,6 +72,12 @@
         background-color: $color-principal;
         color: $color-secundario;
         align-items: center;
+        margin: auto;
         padding: 10px;
+        p{
+            padding: 3px;
+            margin: auto;
+        }
     }
 }
+/*-------------------------------Fin Footer----------------------------------*/
