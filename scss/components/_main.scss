@@ -416,7 +416,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px 0px;
-    font-size: nth($font-size,7);
+    font-size: nth($font-size,8);
     border: 2px solid $color-secundario;
     h2{
         padding: 5px;
@@ -446,11 +446,14 @@
             .submit{
                 background-color: $color-secundario;
                 color: $color-principal;
-                height: 30px;
+                height: 40px;
                 border-radius: 10px;
-                margin-top: 25px;
-                margin-bottom: 25px;
+                margin-top: 15px;
+                margin-bottom: 15px;
                 text-align: center;
+                font-size: nth($font-size,9);
+                font-weight: bold;
+                letter-spacing: 3px;
             }
         }
     }

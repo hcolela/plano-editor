@@ -400,7 +400,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 15px 0px;
-  font-size: 20px;
+  font-size: 22px;
   border: 2px solid #dedf0c; }
   .sign__up h2 {
     padding: 5px;
@@ -424,11 +424,14 @@ header {
     .sign__up .sign__up__form__major .button__submit .submit {
       background-color: #dedf0c;
       color: black;
-      height: 30px;
+      height: 40px;
       border-radius: 10px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-      text-align: center; }
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 3px; }
 
 /*---------------------------Fin Page Sign up-(Log in)-----------------------*/
 /*-------------------Inicio Page Blog categories z_blog_caba-----------------*/
@@ -617,6 +620,10 @@ body .grid__container__caba {
 
 /*-------------------------------Fin Footer----------------------------------*/
 /*---------------------------Inicio Media Query--------------------------------*/
+@media screen and (max-width: 1000px) {
+  .navbar .container-fluid .navbar-brand img {
+    display: none; } }
+
 @media screen and (max-width: 750px) {
   header h1 {
     font-size: 38px;
@@ -797,12 +804,16 @@ body .grid__container__caba {
 @media screen and (max-width: 650px) {
   .sign__up {
     margin-top: 10px;
-    font-size: 16px; } }
+    font-size: 18px; }
+    .sign__up .sign__up__form {
+      font-size: 20px; } }
 
 @media screen and (max-width: 585px) {
   .sign__up {
     font-size: 12px;
-    margin: 5px auto; } }
+    margin: 5px auto; }
+    .sign__up .sign__up__form {
+      font-size: 20px; } }
 
 @media screen and (max-width: 820px) {
   body .grid__container__caba {

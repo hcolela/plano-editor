@@ -1,4 +1,9 @@
 /*---------------------------Inicio Media Query--------------------------------*/
+@media screen and (max-width:1000px){
+    .navbar .container-fluid .navbar-brand img{
+        display: none;
+    }
+}
 @media screen and (max-width:750px){
     header h1{
         font-size: nth($font-size,12);
@@ -234,15 +239,21 @@
 @media screen and (max-width:650px){
     .sign__up{
         margin-top: 10px;
-        font-size: nth($font-size,5);
+        font-size: nth($font-size,6);
+        .sign__up__form{
+            font-size: nth($font-size,7);
+        }
     }
 }
 @media screen and (max-width:585px){
     .sign__up{
         font-size: nth($font-size,1);
         margin: 5px auto;
+        .sign__up__form{
+            font-size: nth($font-size,7);
+        }
     }
-} 
+}
 @media screen and (max-width:820px){
     body .grid__container__caba{
         width: 100%;
